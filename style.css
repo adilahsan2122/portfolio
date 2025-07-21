@@ -75,7 +75,6 @@ body {
     color: #333;
 }
 
-/* Home Page */
 .home-content {
     display: flex;
     align-items: center;
@@ -88,25 +87,29 @@ body {
 
 .profile-section {
     text-align: center;
+    justify-content: center;
+    align-items: center;
     flex: 1;
     min-width: 300px;
 }
+
+
 
 .profile-img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin: 0 auto 2rem;
+    margin: 0 auto 0;
     display: block;
     object-fit: cover;
     background: rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.8);
 }
-
 .name {
     font-size: 3rem;
     font-weight: bold;
@@ -169,7 +172,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .project-card {
@@ -221,21 +224,24 @@ body {
 .skills-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 0rem;
+
 }
 
 .skill-section {
     background: rgba(255, 255, 255, 0.1);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 30px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .skill-section h3 {
